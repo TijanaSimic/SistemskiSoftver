@@ -1,0 +1,26 @@
+#TABELASIMBOLA
+ime: .sekcija1 | brojSekcije: 3 | vrednost: 0 | flag: l | rb: 3  | velicinaSekcije:14
+ime: .sekcija2 | brojSekcije: 6 | vrednost: 0 | flag: l | rb: 6  | velicinaSekcije:26
+ime: UND | brojSekcije: 0 | vrednost: 0 | flag: l | rb: 0 
+ime: b | brojSekcije: -2 | vrednost: a | flag: l | rb: 1 
+ime: d | brojSekcije: 3 | vrednost: c | flag: g | rb: 2 
+ime: c | brojSekcije: 3 | vrednost: 4 | flag: l | rb: 4 
+ime: a | brojSekcije: 3 | vrednost: a | flag: g | rb: 5 
+ime: f | brojSekcije: 6 | vrednost: a | flag: l | rb: 7 
+
+#rel.sekcija1
+adresa: c | tip: R_X86_64_32 | vrednost: 2
+
+#rel.sekcija2
+adresa: 5 | tip: R_X86_64_32 | vrednost: 3
+adresa: 6 | tip: R_X86_64_32 | vrednost: 2
+adresa: 8 | tip: R_X86_64_32 | vrednost: 5
+adresa: 18 | tip: R_X86_64_32 | vrednost: 2
+
+
+#.sekcija1
+2c 00 04 00 00 00 3c 6e 08 00 2c 80 0c 00 
+
+#.sekcija2
+34 6e 06 00 04 00 0c 00 00 00 2c 66 07 00 00 00 00 00 34 6e f4 ff 2c 00 0c 00 
+

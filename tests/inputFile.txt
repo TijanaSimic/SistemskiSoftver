@@ -1,0 +1,27 @@
+.global a
+.extern c
+.equ f, s+5+l-p #lokalni
+
+.section .sekcija1
+
+.skip 1
+s:.byte -3,0x24,a
+  andw c, a(%pc)
+  mov $c, n(%pc)
+a: int l(%r7)
+  pop p 
+  orb $0xff, %r2h
+p:
+ .word c,s,a  
+  
+
+.section .sekcija2
+  push c
+  .skip 0x2
+n: call s
+  divb $20, %r1l
+l: subw n,f(%r3)
+   shr (%r4), n
+  test s(%pc),20
+ halt
+.end

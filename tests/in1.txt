@@ -1,0 +1,21 @@
+.global a
+.equ b, a-c+0x4 #konstanta
+.equ d, b-0x1+3 +a#globalni
+
+.section .sekcija1
+   
+   jmp  0x4
+c: .skip 2
+   jne *b(%pc)
+a: jmp *d
+
+.section .sekcija2
+
+    jeq *f(%pc)
+    .byte 4, .sekcija1
+   .word d,a
+f: jmp *0x7(%r3) 
+    .skip 4
+     jeq *f(%r7)
+    jmp d
+.end

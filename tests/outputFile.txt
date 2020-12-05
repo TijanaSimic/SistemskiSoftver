@@ -1,0 +1,39 @@
+#TABELASIMBOLA
+ime: .sekcija1 | brojSekcije: 3 | vrednost: 0 | flag: l | rb: 3  | velicinaSekcije:36
+ime: .sekcija2 | brojSekcije: 9 | vrednost: 0 | flag: l | rb: 9  | velicinaSekcije:34
+ime: UND | brojSekcije: 0 | vrednost: 0 | flag: l | rb: 0 
+ime: c | brojSekcije: 0 | vrednost: 0 | flag: g | rb: 1 
+ime: f | brojSekcije: 9 | vrednost: fffffff6 | flag: l | rb: 2 
+ime: s | brojSekcije: 3 | vrednost: 1 | flag: l | rb: 4 
+ime: a | brojSekcije: 3 | vrednost: 12 | flag: g | rb: 5 
+ime: n | brojSekcije: 9 | vrednost: 6 | flag: l | rb: 6 
+ime: l | brojSekcije: 9 | vrednost: e | flag: l | rb: 7 
+ime: p | brojSekcije: 3 | vrednost: 1e | flag: l | rb: 8 
+
+#rel.sekcija1
+adresa: 3 | tip: R_X86_64_32 | vrednost: 5
+adresa: 6 | tip: R_X86_64_32 | vrednost: 1
+adresa: 9 | tip: R_X86_64_PC32 | vrednost: 5
+adresa: d | tip: R_X86_64_32 | vrednost: 1
+adresa: 10 | tip: R_X86_64_PC32 | vrednost: 9
+adresa: 14 | tip: R_X86_64_PC32 | vrednost: 9
+adresa: 18 | tip: R_X86_64_32 | vrednost: 3
+adresa: 1e | tip: R_X86_64_32 | vrednost: 1
+adresa: 20 | tip: R_X86_64_32 | vrednost: 3
+adresa: 22 | tip: R_X86_64_32 | vrednost: 5
+
+#rel.sekcija2
+adresa: 2 | tip: R_X86_64_32 | vrednost: 1
+adresa: 8 | tip: R_X86_64_32 | vrednost: 3
+adresa: 10 | tip: R_X86_64_32 | vrednost: 9
+adresa: 13 | tip: R_X86_64_32 | vrednost: 9
+adresa: 18 | tip: R_X86_64_32 | vrednost: 9
+adresa: 1c | tip: R_X86_64_32 | vrednost: 3
+
+
+#.sekcija1
+00 fd 24 00 9c 80 00 00 6e fe ff 64 00 00 00 6e 04 00 1c 6e 0c 00 54 80 1e 00 a0 00 ff 25 00 00 01 00 00 00 
+
+#.sekcija2
+4c 80 00 00 00 00 24 80 01 00 80 00 14 22 74 80 06 00 66 f6 ff c4 48 80 06 00 b4 6e fc ff 80 14 00 00 
+
